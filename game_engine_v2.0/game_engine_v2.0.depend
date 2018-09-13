@@ -1,0 +1,825 @@
+# depslib dependency file v1.0
+1525890150 source:c:\users\stuppzzzz\documents\game_engine - copy (2)\core\call.cpp
+
+1525890150 source:c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\core\call.cpp
+
+1531670528 source:c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\core\input.cpp
+	"input.h"
+	"display.h"
+
+1531670546 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\core\input.h
+	<vector>
+
+1535561274 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\renderer\display.h
+	"GL/glew.h"
+	"GLFW/glfw3.h"
+	"vertex_array.h"
+	<stdio.h>
+	<string.h>
+	"game.h"
+
+1501501581 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\glew\include\gl\glew.h
+	<stddef.h>
+	<inttypes.h>
+	<stdint.h>
+	<inttypes.h>
+	<Availability.h>
+	<OpenGL/glu.h>
+	<GL/glu.h>
+
+1523853948 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\glfw\include\glfw\glfw3.h
+	<stddef.h>
+	<stdint.h>
+	<GLES/gl.h>
+	<GLES/glext.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl3.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl31.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl32.h>
+	<GLES2/gl2ext.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<GL/glcorearb.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/gl.h>
+	<GL/glext.h>
+	<GL/glu.h>
+	<vulkan/vulkan.h>
+
+1524673751 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\renderer\vertex_array.h
+	"vertex_buffer.h"
+
+1534059797 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\renderer\vertex_buffer.h
+	"obj_loader.h"
+	"vector4f.h"
+	<GL/glew.h>
+
+1524521445 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\renderer\obj_loader.h
+	"glm/glm.hpp"
+	<vector>
+	<string>
+
+1502887718 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\glm\glm.hpp
+	"detail/_fixes.hpp"
+	<cmath>
+	<climits>
+	<cfloat>
+	<limits>
+	<cassert>
+	"fwd.hpp"
+	"vec2.hpp"
+	"vec3.hpp"
+	"vec4.hpp"
+	"mat2x2.hpp"
+	"mat2x3.hpp"
+	"mat2x4.hpp"
+	"mat3x2.hpp"
+	"mat3x3.hpp"
+	"mat3x4.hpp"
+	"mat4x2.hpp"
+	"mat4x3.hpp"
+	"mat4x4.hpp"
+	"trigonometric.hpp"
+	"exponential.hpp"
+	"common.hpp"
+	"packing.hpp"
+	"geometric.hpp"
+	"matrix.hpp"
+	"vector_relational.hpp"
+	"integer.hpp"
+
+1483566163 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\glm\detail\_fixes.hpp
+	<cmath>
+
+1502887718 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\glm\fwd.hpp
+	"detail/type_int.hpp"
+	"detail/type_float.hpp"
+	"detail/type_vec.hpp"
+	"detail/type_mat.hpp"
+
+1502887718 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\glm\detail\type_int.hpp
+	"setup.hpp"
+	<type_traits>
+	<cstdint>
+
+1502887718 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\glm\detail\setup.hpp
+	<cassert>
+	<cstddef>
+	"../simd/platform.h"
+
+1502887718 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\glm\simd\platform.h
+	<cuda.h>
+	<intrin.h>
+	<immintrin.h>
+	<immintrin.h>
+	<popcntintrin.h>
+	<nmmintrin.h>
+	<smmintrin.h>
+	<tmmintrin.h>
+	<pmmintrin.h>
+	<emmintrin.h>
+
+1502887718 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\glm\detail\type_float.hpp
+	"setup.hpp"
+
+1502887718 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\glm\detail\type_vec.hpp
+	"precision.hpp"
+	"type_int.hpp"
+
+1502887718 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\glm\detail\precision.hpp
+	"setup.hpp"
+
+1502887718 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\glm\detail\type_mat.hpp
+	"precision.hpp"
+
+1502887718 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\glm\vec2.hpp
+	"detail/type_vec2.hpp"
+
+1502887718 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\glm\detail\type_vec2.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec2.inl"
+
+1502887718 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\glm\detail\_swizzle.hpp
+
+1502887718 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\glm\detail\_swizzle_func.hpp
+
+1502887718 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\glm\detail\type_vec2.inl
+
+1502887718 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\glm\vec3.hpp
+	"detail/type_vec3.hpp"
+
+1502887718 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\glm\detail\type_vec3.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec3.inl"
+
+1502887718 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\glm\detail\type_vec3.inl
+
+1502887718 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\glm\vec4.hpp
+	"detail/type_vec4.hpp"
+
+1502887718 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\glm\detail\type_vec4.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec4.inl"
+
+1502887718 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\glm\detail\type_vec4.inl
+	"type_vec4_simd.inl"
+
+1502887718 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\glm\detail\type_vec4_simd.inl
+
+1502887718 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\glm\mat2x2.hpp
+	"detail/type_mat2x2.hpp"
+
+1502887718 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\glm\detail\type_mat2x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x2.inl"
+
+1502887718 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\glm\detail\type_mat2x2.inl
+	"func_matrix.hpp"
+
+1502887718 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\glm\detail\func_matrix.hpp
+	"../detail/precision.hpp"
+	"../detail/setup.hpp"
+	"../detail/type_mat.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	"func_matrix.inl"
+
+1502887718 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\glm\mat2x3.hpp
+	"detail/type_mat2x3.hpp"
+
+1502887718 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\glm\detail\type_mat2x3.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x3.inl"
+
+1502887718 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\glm\detail\type_mat2x3.inl
+
+1502887718 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\glm\mat2x4.hpp
+	"detail/type_mat2x4.hpp"
+
+1502887718 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\glm\detail\type_mat2x4.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x4.inl"
+
+1502887718 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\glm\detail\type_mat2x4.inl
+
+1502887718 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\glm\mat3x2.hpp
+	"detail/type_mat3x2.hpp"
+
+1502887718 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\glm\detail\type_mat3x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x2.inl"
+
+1502887718 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\glm\detail\type_mat3x2.inl
+
+1502887718 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\glm\mat3x3.hpp
+	"detail/type_mat3x3.hpp"
+
+1502887718 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\glm\detail\type_mat3x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x3.inl"
+
+1502887718 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\glm\detail\type_mat3x3.inl
+	"func_matrix.hpp"
+
+1502887718 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\glm\mat3x4.hpp
+	"detail/type_mat3x4.hpp"
+
+1502887718 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\glm\detail\type_mat3x4.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x4.inl"
+
+1502887718 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\glm\detail\type_mat3x4.inl
+
+1502887718 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\glm\mat4x2.hpp
+	"detail/type_mat4x2.hpp"
+
+1502887718 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\glm\detail\type_mat4x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x2.inl"
+
+1502887718 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\glm\detail\type_mat4x2.inl
+
+1502887718 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\glm\mat4x3.hpp
+	"detail/type_mat4x3.hpp"
+
+1502887718 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\glm\detail\type_mat4x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x3.inl"
+
+1502887718 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\glm\detail\type_mat4x3.inl
+
+1502887718 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\glm\mat4x4.hpp
+	"detail/type_mat4x4.hpp"
+
+1502887718 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\glm\detail\type_mat4x4.hpp
+	"../fwd.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x4.inl"
+
+1502887718 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\glm\detail\type_mat4x4.inl
+	"func_matrix.hpp"
+	"type_mat4x4_simd.inl"
+
+1483566163 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\glm\detail\type_mat4x4_simd.inl
+
+1502887718 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\glm\detail\func_matrix.inl
+	"../geometric.hpp"
+	<limits>
+	"func_matrix_simd.inl"
+
+1502887718 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\glm\geometric.hpp
+	"detail/func_geometric.hpp"
+
+1502887718 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\glm\detail\func_geometric.hpp
+	"type_vec3.hpp"
+	"func_geometric.inl"
+
+1502887718 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\glm\detail\func_geometric.inl
+	"func_exponential.hpp"
+	"func_common.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_float.hpp"
+	"func_geometric_simd.inl"
+
+1502887718 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\glm\detail\func_exponential.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	<cmath>
+	"func_exponential.inl"
+
+1502887718 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\glm\detail\type_vec1.hpp
+	"../fwd.hpp"
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec1.inl"
+
+1502887718 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\glm\detail\type_vec1.inl
+
+1502887718 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\glm\detail\func_exponential.inl
+	"func_vector_relational.hpp"
+	"_vectorize.hpp"
+	<limits>
+	<cmath>
+	<cassert>
+	"func_exponential_simd.inl"
+
+1502887718 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\glm\detail\func_vector_relational.hpp
+	"precision.hpp"
+	"setup.hpp"
+	"func_vector_relational.inl"
+
+1502887718 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\glm\detail\func_vector_relational.inl
+	<limits>
+	"func_vector_relational_simd.inl"
+
+1483566163 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\glm\detail\func_vector_relational_simd.inl
+
+1502887718 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\glm\detail\_vectorize.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+
+1502887718 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\glm\detail\func_exponential_simd.inl
+	"../simd/exponential.h"
+
+1483566164 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\glm\simd\exponential.h
+	"platform.h"
+
+1502887718 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\glm\detail\func_common.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"type_int.hpp"
+	"_fixes.hpp"
+	"func_common.inl"
+
+1502887718 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\glm\detail\func_common.inl
+	"func_vector_relational.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"_vectorize.hpp"
+	<limits>
+	"func_common_simd.inl"
+
+1502887718 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\glm\detail\func_common_simd.inl
+	"../simd/common.h"
+	<immintrin.h>
+
+1502887718 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\glm\simd\common.h
+	"platform.h"
+
+1502887718 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\glm\detail\func_geometric_simd.inl
+	"../simd/geometric.h"
+
+1483566164 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\glm\simd\geometric.h
+	"common.h"
+
+1502887718 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\glm\detail\func_matrix_simd.inl
+	"type_mat4x4.hpp"
+	"func_geometric.hpp"
+	"../simd/matrix.h"
+
+1502887718 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\glm\simd\matrix.h
+	"geometric.h"
+
+1502887718 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\glm\trigonometric.hpp
+	"detail/func_trigonometric.hpp"
+
+1502887718 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\glm\detail\func_trigonometric.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_trigonometric.inl"
+
+1502887718 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\glm\detail\func_trigonometric.inl
+	"_vectorize.hpp"
+	<cmath>
+	<limits>
+	"func_trigonometric_simd.inl"
+
+1483566163 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\glm\detail\func_trigonometric_simd.inl
+
+1502887718 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\glm\exponential.hpp
+	"detail/func_exponential.hpp"
+
+1502887718 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\glm\common.hpp
+	"detail/func_common.hpp"
+
+1502887718 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\glm\packing.hpp
+	"detail/func_packing.hpp"
+
+1502887718 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\glm\detail\func_packing.hpp
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"func_packing.inl"
+
+1502887718 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\glm\detail\func_packing.inl
+	"func_common.hpp"
+	"type_half.hpp"
+	"../fwd.hpp"
+	"func_packing_simd.inl"
+
+1502887718 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\glm\detail\type_half.hpp
+	"setup.hpp"
+	"type_half.inl"
+
+1502887718 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\glm\detail\type_half.inl
+
+1483566163 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\glm\detail\func_packing_simd.inl
+
+1502887718 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\glm\matrix.hpp
+	"detail/func_matrix.hpp"
+
+1502887718 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\glm\vector_relational.hpp
+	"detail/func_vector_relational.hpp"
+
+1502887718 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\glm\integer.hpp
+	"detail/func_integer.hpp"
+
+1502887718 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\glm\detail\func_integer.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_common.hpp"
+	"func_vector_relational.hpp"
+	"func_integer.inl"
+
+1502887718 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\glm\detail\func_integer.inl
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_int.hpp"
+	"_vectorize.hpp"
+	<intrin.h>
+	<limits>
+	"func_integer_simd.inl"
+
+1502887718 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\glm\detail\func_integer_simd.inl
+	"../simd/integer.h"
+
+1483566164 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\glm\simd\integer.h
+
+1534872624 source:c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\core\resource_loader.cpp
+	<stdio.h>
+	<string.h>
+	"call.h"
+	"resource_loader.h"
+	"GL/glew.h"
+	<unistd.h>
+
+1525890162 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\core\call.h
+
+1531285620 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\core\resource_loader.h
+	"glm/glm.hpp"
+	<vector>
+	<string.h>
+	"shader.h"
+
+1534059131 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\renderer\shader.h
+	<unordered_map>
+	"glm/glm.hpp"
+	"transform.h"
+	"camera.h"
+	"point_lights.h"
+
+1533115541 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\core\transform.h
+	"glm/glm.hpp"
+	"glm/gtc/matrix_transform.hpp"
+	"glm/gtx/transform.hpp"
+	"vector3f.h"
+	"matrices.h"
+	"camera.h"
+
+1502887718 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\glm\gtc\matrix_transform.hpp
+	"../mat4x4.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"matrix_transform.inl"
+
+1502887718 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\glm\gtc\constants.hpp
+	"../detail/setup.hpp"
+	"constants.inl"
+
+1502887718 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\glm\gtc\constants.inl
+	<limits>
+
+1502887718 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\glm\gtc\matrix_transform.inl
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"../matrix.hpp"
+
+1502887718 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\glm\gtx\transform.hpp
+	"../glm.hpp"
+	"../gtc/matrix_transform.hpp"
+	"transform.inl"
+
+1502887718 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\glm\gtx\transform.inl
+
+1534138443 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\core\vector3f.h
+	"quaternions.h"
+	"vector2f.h"
+
+1527342190 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\core\quaternions.h
+	"math.h"
+
+1533115500 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\core\matrices.h
+	"stdio.h"
+
+1527358273 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\renderer\camera.h
+	"glm/glm.hpp"
+	"glm/gtc/matrix_transform.hpp"
+	"vector3f.h"
+
+1534059643 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\renderer\point_lights.h
+	"vertex_buffer.h"
+	"vector3f.h"
+
+1524705704 source:c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\core\transform.cpp
+	"transform.h"
+
+1525899802 source:c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\renderer\index_buffer.cpp
+	"index_buffer.h"
+	<stdio.h>
+	"GL/glew.h"
+
+1525237528 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\renderer\index_buffer.h
+	<vector>
+	"obj_loader.h"
+
+1534003063 source:c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\game\game.cpp
+	"game.h"
+	"shaders.h"
+	"terrain.h"
+	"display.h"
+
+1533337976 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\game\game.h
+	"input.h"
+	"vector2f.h"
+	"vector3f.h"
+	"matrices.h"
+	"mesh.h"
+	"shader.h"
+	"resource_loader.h"
+	"obj_loader.h"
+	"vertex_array.h"
+	"vertex_buffer.h"
+	"vertex_buffer_layout.h"
+	"index_buffer.h"
+	"camera.h"
+	"texture.h"
+	"material.h"
+	"GLFW/glfw3.h"
+	"game_object.h"
+
+1534138352 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\core\vector2f.h
+	<math.h>
+
+1536436177 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\renderer\mesh.h
+	"GL/glew.h"
+	"obj_loader.h"
+	"shader.h"
+	"call.h"
+
+1525898474 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\renderer\vertex_buffer_layout.h
+	<vector>
+	<gl/glew.h>
+	"call.h"
+
+1533153015 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\renderer\texture.h
+
+1533153015 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\renderer\material.h
+	"texture.h"
+	"glm/glm.hpp"
+	"glm/gtc/matrix_transform.hpp"
+
+1534111154 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\renderer\shaders.h
+
+1527117855 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\game\terrain.h
+	"shader.h"
+
+1527655345 source:c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\renderer\material.cpp
+	"material.h"
+
+1418909075 source:c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\renderer\obj_loader.cpp
+	"obj_loader.h"
+	<fstream>
+	<iostream>
+	<algorithm>
+	<map>
+
+1534298623 source:c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\renderer\shader.cpp
+	"shader.h"
+	<stdio.h>
+	"GL/glew.h"
+
+1523750615 source:c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\renderer\stbb_image.cpp
+	"stb_image.h"
+
+1523750593 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\renderer\stb_image.h
+	"stb_image.h"
+	<stdio.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+	<math.h>
+	<stdio.h>
+	<assert.h>
+	<stdint.h>
+	<emmintrin.h>
+	<intrin.h>
+	<arm_neon.h>
+
+1533153015 source:c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\renderer\texture.cpp
+	"texture.h"
+	"stb_image.h"
+	"GL/glew.h"
+
+1525889922 source:c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\renderer\vertex_array.cpp
+	"vertex_array.h"
+	"call.h"
+	"vertex_buffer_layout.h"
+
+1525983899 source:c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\renderer\vertex_buffer.cpp
+	"vertex_buffer.h"
+	"call.h"
+
+1536267711 source:c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\main.cpp
+	"display.h"
+	"engine.h"
+	"test_game.h"
+
+1534110774 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\core\engine.h
+	<thread>
+	<stdio.h>
+	"game.h"
+	"TIMER.H"
+	"transform.h"
+	"rendering_engine/rendering_engine.h"
+
+1532330558 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\renderer\render_util.h
+	<GL/glew.h>
+
+1536254697 source:c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\game\test_game.cpp
+	"test_game.h"
+	"shaders.h"
+	"terrain.h"
+	"display.h"
+	"game_object.h"
+	"mesh_renderer.h"
+
+1532329754 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\game\test_game.h
+	"game.h"
+	"mesh_renderer.h"
+
+1534012716 source:c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\core\game_componet.cpp
+	"game_component.h"
+	"shader.h"
+
+1534012942 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\core\game_component.h
+	"transform.h"
+
+1534012670 source:c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\core\game_object.cpp
+	"game_object.h"
+
+1534012942 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\core\game_object.h
+	<vector>
+	"game_component.h"
+	"transform.h"
+
+1534012959 source:c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\game\mesh_renderer.cpp
+	"mesh_renderer.h"
+
+1534012942 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\game\mesh_renderer.h
+	"game_component.h"
+	"mesh.h"
+	"resource_loader.h"
+	"material.h"
+
+1534044307 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\core\rendering_engine\rendering_engine.h
+	"vector4f.h"
+	"forward_ambient.h"
+	"forward_directional.h"
+	"forward_point.h"
+	"forward_spot.h"
+
+1536254611 source:c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\core\rendering_engine\rendering_engine.cpp
+	"rendering_engine/rendering_engine.h"
+	"game_object.h"
+	"forward_ambient.h"
+	"forward_directional.h"
+	"game.h"
+
+1530849975 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\core\timer.h
+	<chrono>
+
+1534133475 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\renderer\forward_ambient.h
+	"shader.h"
+	"shaders.h"
+	"vector4f.h"
+
+1534138443 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\core\vector4f.h
+	"vector3f.h"
+
+1534002717 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\renderer\forward_directional.h
+	"shader.h"
+	"vertex_buffer.h"
+	"material.h"
+
+1534059643 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\renderer\forward_point.h
+	"shader.h"
+	"point_lights.h"
+	"vector4f.h"
+
+1534875940 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\renderer\forward_spot.h
+	"shader.h"
+	"point_lights.h"
+
+1502887718 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\glm\gtc\type_ptr.hpp
+	"../gtc/quaternion.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	<cstring>
+	"type_ptr.inl"
+
+1502887718 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\glm\gtc\quaternion.hpp
+	"../mat3x3.hpp"
+	"../mat4x4.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"quaternion.inl"
+
+1502887718 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\glm\gtc\quaternion.inl
+	"../trigonometric.hpp"
+	"../geometric.hpp"
+	"../exponential.hpp"
+	<limits>
+	"quaternion_simd.inl"
+
+1502887718 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\glm\gtc\quaternion_simd.inl
+
+1502887718 c:\users\stuppzzzz\documents\game_engine - copy (2)\game_engine_v2.0\glm\gtc\type_ptr.inl
+	<cstring>
+

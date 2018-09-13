@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="game_engine_v2.0" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="./[DEBUG]game_engine_v2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-std=c++11" />
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="./game_engine_v2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-std=c++11" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-std=c++11" />
+			<Add option="-DGLEW_STATIC" />
+			<Add option="-D_GLFW_WIN32" />
+			<Add directory="game" />
+			<Add directory="core" />
+			<Add directory="renderer" />
+			<Add directory="physics" />
+			<Add directory="GLEW/include" />
+			<Add directory="GLFW/include" />
+			<Add directory="../game_engine_v2.0" />
+		</Compiler>
+		<Linker>
+			<Add library="C:/Users/stuppzzzz/Documents/wolf3D clone/libglew32.a" />
+			<Add library="C:/Users/stuppzzzz/Documents/wolf3D clone/libglfw3.a" />
+			<Add library="C:/Users/stuppzzzz/Documents/wolf3D clone/libopengl32.a" />
+			<Add library="C:/Users/stuppzzzz/Documents/wolf3D clone/libgdi32.a" />
+			<Add library="GLEW/glew32s.lib" />
+			<Add directory="../game_engine_v2.0" />
+		</Linker>
+		<Unit filename="core/TIMER.H" />
+		<Unit filename="core/call.cpp" />
+		<Unit filename="core/call.h" />
+		<Unit filename="core/engine.h" />
+		<Unit filename="core/game_component.h" />
+		<Unit filename="core/game_componet.cpp" />
+		<Unit filename="core/game_object.cpp" />
+		<Unit filename="core/game_object.h" />
+		<Unit filename="core/input.cpp" />
+		<Unit filename="core/input.h" />
+		<Unit filename="core/matrices.h" />
+		<Unit filename="core/quaternions.h" />
+		<Unit filename="core/rendering_engine/rendering_engine.cpp" />
+		<Unit filename="core/rendering_engine/rendering_engine.h" />
+		<Unit filename="core/resource_loader.cpp" />
+		<Unit filename="core/resource_loader.h" />
+		<Unit filename="core/transform.cpp" />
+		<Unit filename="core/transform.h" />
+		<Unit filename="core/vector2f.h" />
+		<Unit filename="core/vector3f.h" />
+		<Unit filename="core/vector4f.h" />
+		<Unit filename="game/game.cpp" />
+		<Unit filename="game/game.h" />
+		<Unit filename="game/mesh_renderer.cpp" />
+		<Unit filename="game/mesh_renderer.h" />
+		<Unit filename="game/test_game.cpp" />
+		<Unit filename="game/test_game.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="renderer/camera.h" />
+		<Unit filename="renderer/display.h" />
+		<Unit filename="renderer/forward_ambient.h" />
+		<Unit filename="renderer/forward_directional.h" />
+		<Unit filename="renderer/forward_point.h" />
+		<Unit filename="renderer/forward_spot.h" />
+		<Unit filename="renderer/index_buffer.cpp" />
+		<Unit filename="renderer/index_buffer.h" />
+		<Unit filename="renderer/material.cpp" />
+		<Unit filename="renderer/material.h" />
+		<Unit filename="renderer/mesh.h" />
+		<Unit filename="renderer/obj_loader.cpp" />
+		<Unit filename="renderer/obj_loader.h" />
+		<Unit filename="renderer/point_lights.h" />
+		<Unit filename="renderer/render_util.h" />
+		<Unit filename="renderer/shader.cpp" />
+		<Unit filename="renderer/shader.h" />
+		<Unit filename="renderer/shaders.h" />
+		<Unit filename="renderer/stb_image.h" />
+		<Unit filename="renderer/stbb_image.cpp" />
+		<Unit filename="renderer/texture.cpp" />
+		<Unit filename="renderer/texture.h" />
+		<Unit filename="renderer/vertex_array.cpp" />
+		<Unit filename="renderer/vertex_array.h" />
+		<Unit filename="renderer/vertex_buffer.cpp" />
+		<Unit filename="renderer/vertex_buffer.h" />
+		<Unit filename="renderer/vertex_buffer_layout.h" />
+		<Unit filename="renderer/vertices.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
