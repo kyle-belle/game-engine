@@ -15,6 +15,7 @@ int main(){
     window Window(NAME, WIDTH, HEIGHT, FRAME_RATE, &test);
     gameloop gameloop(Window);
     exit(10);
+    exit(20);
 }
 ///* OpenGL example code - Instancing
 // *
